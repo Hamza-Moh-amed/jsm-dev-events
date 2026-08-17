@@ -128,7 +128,7 @@
   }
 
   ul {
-    @apply list-disc list-inside;
+    @apply list-inside;
   }
 }
 
