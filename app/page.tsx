@@ -1,7 +1,8 @@
+import CreateEventForm from "@/components/CreateEventForm";
 import EventCard from "@/components/EventCard";
 import ExploreBtn from "@/components/ExploreBtn";
 import { events } from "@/lib/constants";
-
+  
 export default function Home() {
   return (
    <section>
@@ -9,6 +10,10 @@ export default function Home() {
     <p className="text-center mt-5">Hackathons, Meetups, and conferences, all in one place</p>
 
     <ExploreBtn />
+
+      <div className="mt-20 space-y-7">
+        <CreateEventForm  />
+      </div>
 
     <div className="mt-20 space-y-7">
       <h3>Featured Events</h3>
