@@ -13,7 +13,7 @@ interface EventCard  {
 
 const EventCard = ({image, title, slug, location, date, time }: EventCard) => {
   return (
-    <Link href={`events/${slug}`} id="event-card">
+    <Link href={`/events/${slug}`} id="event-card">
         <Image
         src={image}
         alt="title"
